@@ -5,7 +5,7 @@ const uuidv1 = require('uuid/v1')
 
 
 
-const csvToJson = (filePath='./customer-data.csv') => {
+const csvToJson = (filePath='./sample-data.csv') => {
     console.log('Converting ', filePath)
 
     const convert = (file, callback) => {
