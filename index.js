@@ -31,7 +31,7 @@ const csvToJson = (filePath='./sample-data.csv') => {
     convert(filePath, (error, data) => {
         if (error) return console.error(error)
         fs.writeFileSync(path.join(__dirname, folderName, 'result.json'), 
-            JSON.stringify(data))
+            JSON.stringify(data, null, 2))
         console.log(`Converting is done in folder: ${folderName}`)
     })
 }
