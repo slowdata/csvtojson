@@ -1,0 +1,9 @@
+*.log
+.eslintrc.js
+node_modules
+
+.csv
+
+.DS_Store
+.DS_Store?
+Thumbs.db
